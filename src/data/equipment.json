@@ -1,0 +1,31 @@
+{
+  "equipment": [
+    {
+      "id": "led_light_60cm",
+      "category": "lighting",
+      "name": "LED Aquarium Beleuchtung 60cm",
+      "specifications": {
+        "length": 60,
+        "power": 24,
+        "lumens": 2400,
+        "color_temperature": 6500,
+        "dimmable": true
+      },
+      "suitable_tank_sizes": [60, 80, 100],
+      "price_range": {"min": 80, "max": 150, "currency": "EUR"}
+    },
+    {
+      "id": "filter_internal_300l",
+      "category": "filtration",
+      "name": "Innenfilter 300L/h",
+      "specifications": {
+        "flow_rate": 300,
+        "power": 5,
+        "max_tank_size": 100,
+        "filter_media": ["mechanical", "biological"]
+      },
+      "suitable_tank_sizes": [25, 54, 80],
+      "price_range": {"min": 25, "max": 45, "currency": "EUR"}
+    }
+  ]
+}
