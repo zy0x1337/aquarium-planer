@@ -1,58 +1,24 @@
-{
-  "plants": [
-    {
-      "id": "anubias_nana",
-      "name": "Zwergspeerblatt",
-      "scientific_name": "Anubias barteri var. nana",
-      "family": "Araceae",
-      "size": {
-        "height": {"min": 5, "max": 15, "unit": "cm"},
-        "width": {"min": 8, "max": 12, "unit": "cm"}
-      },
-      "placement": ["foreground", "midground", "hardscape"],
-      "lighting": {
-        "requirement": "low",
-        "min_lumens": 10,
-        "max_lumens": 30,
-        "unit": "lm/l"
-      },
-      "co2": {
-        "required": false,
-        "beneficial": true
-      },
-      "growth_rate": "slow",
-      "difficulty": "easy",
-      "propagation": "rhizome_division",
-      "substrate": "not_required",
-      "fertilization": "liquid_fertilizer",
-      "image_url": "/assets/plants/anubias_nana.jpg"
-    },
-    {
-      "id": "java_moss",
-      "name": "Javamoos",
-      "scientific_name": "Taxiphyllum barbieri",
-      "family": "Hypnaceae",
-      "size": {
-        "height": {"min": 3, "max": 10, "unit": "cm"},
-        "width": {"min": 5, "max": 20, "unit": "cm"}
-      },
-      "placement": ["foreground", "midground", "background", "hardscape"],
-      "lighting": {
-        "requirement": "medium",
-        "min_lumens": 15,
-        "max_lumens": 35,
-        "unit": "lm/l"
-      },
-      "co2": {
-        "required": false,
-        "beneficial": true
-      },
-      "growth_rate": "medium",
-      "difficulty": "easy",
-      "propagation": "fragmentation",
-      "substrate": "not_required",
-      "fertilization": "water_column",
-      "image_url": "/assets/plants/java_moss.jpg"
-    }
-  ]
-}
+[
+  {
+    "id": "amazon_sword",
+    "name": "Amazonas-Schwertpflanze",
+    "species": "Echinodorus amazonicus",
+    "color": "#2ECC71",
+    "size": "large",
+    "careLevel": "easy",
+    "lighting": "moderate",
+    "co2": false,
+    "category": "background"
+  },
+  {
+    "id": "java_moss",
+    "name": "Javamoos",
+    "species": "Taxiphyllum barbieri",
+    "color": "#27AE60",
+    "size": "small",
+    "careLevel": "very easy",
+    "lighting": "low",
+    "co2": false,
+    "category": "carpet"
+  }
+]

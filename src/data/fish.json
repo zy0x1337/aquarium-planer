@@ -1,57 +1,34 @@
 [
   {
-    "id": "tetra_neon",
-    "name": "Neon Tetra",
-    "size": { "min": 2.0, "max": 3.0 },
-    "temperament": "peaceful",
-    "schooling": true,
-    "preferredTemperature": { "min": 22, "max": 26 },
-    "preferredPh": { "min": 6.5, "max": 7.5 },
-    "oxygenRequirement": 0.7,
-    "description": "Kleine, farbenprächtige Schwarmfische, ideal für Gemeinschaftsaquarien."
-  },
-  {
     "id": "guppy",
     "name": "Guppy",
-    "size": { "min": 3.0, "max": 4.5 },
+    "species": "Poecilia reticulata",
+    "color": "#FF6B6B",
+    "size": "small",
     "temperament": "peaceful",
-    "schooling": true,
-    "preferredTemperature": { "min": 24, "max": 28 },
-    "preferredPh": { "min": 7.0, "max": 8.0 },
-    "oxygenRequirement": 0.6,
-    "description": "Lebhafte und anpassungsfähige Vermehrungskünstler, gut für Anfänger."
+    "careLevel": "easy",
+    "compatibility": ["tetra", "molly", "platy"],
+    "requirements": {
+      "temperature": [22, 28],
+      "ph": [6.8, 7.8],
+      "hardness": "medium",
+      "lighting": "moderate"
+    }
   },
   {
-    "id": "betta_splendens",
-    "name": "Kampffisch (Betta)",
-    "size": { "min": 5.0, "max": 7.0 },
+    "id": "angelfish",
+    "name": "Skalar",
+    "species": "Pterophyllum scalare",
+    "color": "#4ECDC4",
+    "size": "large",
     "temperament": "semi-aggressive",
-    "schooling": false,
-    "preferredTemperature": { "min": 24, "max": 30 },
-    "preferredPh": { "min": 6.0, "max": 7.5 },
-    "oxygenRequirement": 0.8,
-    "description": "Einzelgängerisch mit auffälligen Flossen, verträgt höhere Temperaturen."
-  },
-  {
-    "id": "corydoras_paleatus",
-    "name": "Panzer- oder Prachtpanzerwels",
-    "size": { "min": 4.0, "max": 6.0 },
-    "temperament": "peaceful",
-    "schooling": true,
-    "preferredTemperature": { "min": 22, "max": 26 },
-    "preferredPh": { "min": 6.5, "max": 7.5 },
-    "oxygenRequirement": 0.7,
-    "description": "Bodenbewohner, reinigt Substrat und schwimmt gerne im Schwarm."
-  },
-  {
-    "id": "angel_fish",
-    "name": "Skalare (Angelfish)",
-    "size": { "min": 10.0, "max": 15.0 },
-    "temperament": "semi-aggressive",
-    "schooling": false,
-    "preferredTemperature": { "min": 24, "max": 28 },
-    "preferredPh": { "min": 6.8, "max": 7.8 },
-    "oxygenRequirement": 0.75,
-    "description": "Elegante, laternenförmige Fische, können territorial werden."
+    "careLevel": "moderate",
+    "compatibility": ["discus", "tetra"],
+    "requirements": {
+      "temperature": [24, 30],
+      "ph": [6.0, 7.0],
+      "hardness": "soft",
+      "lighting": "moderate"
+    }
   }
 ]
